@@ -25,7 +25,7 @@ And the server is deployed @ https://enigmatic-chamber-18596.herokuapp.com/ws/pe
 
 The program uses ant build-tool for running. 
 
-To execute the program, please download from thopen the terminal and run the following command in the root directory of the program:
+To execute the program, please clone this repository, open the terminal and run the following command in the root directory of the program:
 	
 >> ant execute.client
 	
