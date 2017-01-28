@@ -93,7 +93,7 @@ public class PeopleClient{
         body += stringifyPerson(p);
         // Create unique string and add that to person name to change it
         String uuid = UUID.randomUUID().toString();
-        p.setFirstname("Charlie"+"-"+uuid);
+        p.setFirstname("Hisyam"+"-"+uuid);
         // Update person and get the updated person
         int personId = people.updatePerson(p);
         Person updPerson = people.readPerson(personId);
@@ -111,8 +111,8 @@ public class PeopleClient{
         String parameters = "";
         // Create new person
         Person p = new Person();
-        p.setFirstname("Testeri");
-        p.setLastname("Testaa");
+        p.setFirstname("Haizat");
+        p.setLastname("Saimin");
         p.setBirthdate("1990-05-10");
         
         // Create new healthprofile
