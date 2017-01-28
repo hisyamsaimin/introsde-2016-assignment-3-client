@@ -331,7 +331,7 @@ public class PeopleClient{
      * Print server info to command line and logfile
      */
     public void printServerInfo() {
-        String serverUrl = "https://enigmatic-chamber-18596.herokuapp.com/ws/people?wsdl";
+        String serverUrl = "hhttps://salty-beach-23970.herokuapp.com/ws/people?wsdl";
         String serverInfo = "Requesting from server running in: " + serverUrl;
         System.out.println(serverInfo);
         System.out.println("");
